@@ -29,7 +29,7 @@ export default function Contacto() {
                 </div>
                 
                 <h2 className={`${textClass}`}>Email</h2>
-                <p className={`${textClass}`}>I'm sharing my email address with you so you can contact me:</p>
+                <p className={`${textClass}`}>I am sharing my email address with you so you can contact me:</p>
                 <p className={`text-center ${textClass}`} ><a href="mailto:leonarddevweb@gmail.com">leonarddevweb@gmail.com</a></p>
             </div>
             
@@ -42,7 +42,7 @@ export default function Contacto() {
                 </div>
                 
                 <h2 className={`${textClass}`}>Call me</h2>
-                <p className={`${textClass}`}>I'm sharing my phone number with you so you can give me a call and establish contact:</p>
+                <p className={`${textClass}`}>I am sharing my phone number with you so you can give me a call and establish contact:</p>
                 <p className={`text-center ${textClass}`} ><a href="tel:+5493380751">+54 9 3380751</a></p>
             </div>
             </section>

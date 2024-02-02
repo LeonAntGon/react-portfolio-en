@@ -21,7 +21,7 @@ const Home = () => {
           <h1
             className={`font-bold ${textClass} typewriter-animation
             text-2xl md:text-4xl md:pb-1`}>
-            Hi! I am Leonardo
+            Hi ! I am Leonardo
           </h1>
 
           <p
