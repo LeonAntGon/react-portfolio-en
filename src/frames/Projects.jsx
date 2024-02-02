@@ -8,8 +8,8 @@ import tesla from './../assets/tesla.webp';
 const img = [yas, tesla ]
 const titles = ["Yas Lencería", "Tesla"]
 const description = [
-  "Landing Page para negocio de venta de lencería y ropa interior femenina", 
-  "Proyecto a modo de copia de la pagina web de Tesla."]
+  "Landing Page for a lingerie and women's underwear sales business.", 
+  "This project is a replica of the Tesla website."]
 const technologies = ["HTML - CSS - JavaScript", "Astro - TailwindCss"]
 const links = ["https://leonantgon.github.io/Yasmin/index.html","https://leonantgon.github.io/Tesla/"]
 
@@ -32,7 +32,7 @@ const Projects = () => {
       <div className={`max-w-screen-xl flex flex-col ${backgroundClass} animate-fadeInLeft`}>
         <div className="flex flex-col items-center justify-center w-full h-full">
           <h2 className={`${textClass} text-center font-semibold text-4xl mt-5 mb-20 ${borderBottomClass} pb-3`}>
-            Proyectos
+          Projects
           </h2>
         </div>
 
@@ -47,7 +47,7 @@ const Projects = () => {
                 <h2 className={`text-center font-semibold ${textClass}`}>{titles[index]}</h2>
                 <p className={`${textClass}`}>{description[index]}</p>
                 <p className={` py-2 text-center font-semibold ${textClass}`}>{technologies[index]}</p>
-                <p className="text-center "><a className="text-blue-500 underline" href={`${links[index]}`}>Ver projecto</a></p>
+                <p className="text-center "><a className="text-blue-500 underline" href={`${links[index]}`}>View</a></p>
               </div>
             </div>
                 ))}

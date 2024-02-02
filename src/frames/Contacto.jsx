@@ -29,7 +29,7 @@ export default function Contacto() {
                 </div>
                 
                 <h2 className={`${textClass}`}>Email</h2>
-                <p className={`${textClass}`}>Te comparto mi dirección de correo electrónico para que puedas contactarme: </p>
+                <p className={`${textClass}`}>I'm sharing my email address with you so you can contact me:</p>
                 <p className={`text-center ${textClass}`} ><a href="mailto:leonarddevweb@gmail.com">leonarddevweb@gmail.com</a></p>
             </div>
             
@@ -41,8 +41,8 @@ export default function Contacto() {
                     </div>
                 </div>
                 
-                <h2 className={`${textClass}`}>Llamame</h2>
-                <p className={`${textClass}`}>Comparto mi número de teléfono para que puedas llamarme y así establecer contacto:</p>
+                <h2 className={`${textClass}`}>Call me</h2>
+                <p className={`${textClass}`}>I'm sharing my phone number with you so you can give me a call and establish contact:</p>
                 <p className={`text-center ${textClass}`} ><a href="tel:+5493380751">+54 9 3380751</a></p>
             </div>
             </section>
